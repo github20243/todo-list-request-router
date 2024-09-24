@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://1d8fc696bc46f260.mokky.dev/item";
+const API_BASE_URL = "https://66f28e6c71c84d805875be8e.mockapi.io/items";
 
 export const postRequest = async (data) => {
   try {
