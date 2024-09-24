@@ -58,7 +58,7 @@ export const deleteRequest = async (id, setTasks) => {
 export const putRequest = async (id, data) => {
     try {
       const response = await fetch(`${API_BASE_URL}/${id}`, {
-        method: "PATCH",
+        method: "PUT",
         headers: {
           "Content-Type": "application/json",
         },
